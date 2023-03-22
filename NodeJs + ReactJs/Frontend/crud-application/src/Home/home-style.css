@@ -1,0 +1,40 @@
+#home-btn {
+  margin-right: 40vw;
+}
+
+#home-container {
+  height: 33vh;
+  width: 35vw;
+  margin-left: 25vw;
+}
+
+#home-tittle input {
+  width: 20vw;
+  padding: 10px;
+  font-size: medium;
+  font-weight: 400;
+}
+#home-dis textarea {
+  width: 20vw;
+  padding: 10px;
+  font-size: medium;
+  font-weight: 400;
+}
+.comm-class {
+  height: 10vh;
+  margin: 1rem;
+}
+.comm-class label {
+  font-size: medium;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+#home-btn {
+  margin: 2rem 1rem;
+  border-radius: 6px;
+  background-color: navy;
+  color: white;
+  padding: 5px;
+  font-size: medium;
+}

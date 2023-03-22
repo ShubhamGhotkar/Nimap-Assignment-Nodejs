@@ -1,0 +1,36 @@
+
+.btn {
+  height: max-content;
+  width: max-content;
+  padding: 3px 4px;
+  background-color: navy;
+  color: white;
+  cursor: pointer;
+  margin-left: 4px;
+  border-radius: 4px;
+}
+.btn:hover{
+  background-color: rgb(55, 55, 179);
+  color: white;
+}
+.tab-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  flex-direction: row-reverse;
+  max-height: max-content;
+  font-size: 15px;
+  text-align: center;
+}
+.thead-dark {
+  width: 50%;
+  margin-right: 2rem;
+}
+tbody {
+  width: 90%;
+  background-color: whitesmoke;
+}
+#list-comp {
+  height: 50px;
+}

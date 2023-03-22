@@ -1,0 +1,45 @@
+#inp-container {
+  height: max-content;
+  width: 40%;
+  margin: 13vh 0vw 8vh -9vw;
+  font-size: 12px;
+}
+
+#inp-container h2 {
+  position: absolute;
+  top: 106px;
+  left: 13%;
+  color: navy;
+}
+.inp-div {
+  display: flex;
+  margin: 0.2rem auto;
+  padding: 1rem;
+  margin-left: 30%;
+  font-size: 1rem;
+}
+input,
+select {
+  width: 225px;
+  height: 2rem;
+  padding:0 2px;
+  border-radius: 5px;
+  border: 2px solid rgb(196, 194, 194);
+  text-align: start;
+}
+.label-div {
+  width: 145px;
+  font-weight: 500;
+}
+#save-btn {
+  width: 10vw;
+  padding: 5px;
+  font-size: 1rem;
+  color: white;
+  border-radius: 10px;
+  background-color: navy;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(33, 33, 150);
+}

@@ -1,0 +1,50 @@
+.table-container {
+  width: 100vw;
+  min-height: 60vh;
+  max-height: max-content;
+  margin: auto;
+}
+
+.table {
+  width: 62%;
+  margin: 5vh 0  0 2rem;
+  height: max-content;
+}
+
+.table .thead-dark th {
+  color: #fff;
+  background-color: navy;
+  padding: 5px 0;
+  text-align: center;
+
+}
+
+/* css for List Component */
+
+th{
+  font-size: 14px;
+}
+
+#pagination{
+  height: 6vh;
+  width: 50vw;
+  position: absolute;
+  bottom: 5%;
+  right: 13%;
+  z-index: 99;
+}
+.pag-nav ul {
+  position: fixed;
+  bottom: 3%;
+  right: 50%;
+  z-index: 99;
+  left: 50%;
+  margin: 5px auto;
+  background-color: red;
+}
+
+@media only screen and (max-width: 490px) {
+  .pag-nav ul {
+    left: 39% !important;
+  }
+}
